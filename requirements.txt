@@ -2,4 +2,5 @@
 streamlit==1.29.0
 pandas==2.1.4
 requests==2.31.0
-streamlit run main.py
+python.exe -m streamlit run main.py
+
