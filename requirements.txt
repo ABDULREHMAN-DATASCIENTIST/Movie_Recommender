@@ -1,6 +1,13 @@
+source /home/adminuser/venv/bin/activate
+pip install -r /path/to/requirements.txt
 /home/adminuser/venv/bin/python -m pip install --upgrade pip
+pip install --upgrade pip
+rm -r /home/adminuser/venv
+python -m venv /home/adminuser/venv
+source /home/adminuser/venv/bin/activate
 streamlit==1.29.0
 pandas==2.1.4
 requests==2.31.0
 python.exe -m streamlit run main.py
+
 
